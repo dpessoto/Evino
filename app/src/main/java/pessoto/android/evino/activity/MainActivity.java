@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
@@ -41,9 +42,27 @@ public class MainActivity extends AppCompatActivity {
 
         //Adicionar adaptador para a lista
         listVinhos.setAdapter(adaptador);
+
+        //adicionar click na lista
+        listVinhos.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+
+                String vinhoSelecionado = (String) listVinhos.getItemAtPosition(i);
+
+                Intent intent = new Intent(getApplicationContext(), DetalhesActivity.class);
+
+                //passar dados para DetalhesActivity
+                intent.putExtra("nome", vinhoSelecionado);
+
+                startActivity(intent);
+
+            }
+        });
     }
 
-    public void sair(View view){
+
+    public void sair(View view) {
         Intent i = new Intent(MainActivity.this, LoginActivity.class);
         startActivity(i);
         finish();
