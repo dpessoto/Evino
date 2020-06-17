@@ -1,8 +1,10 @@
-package pessoto.android.evino;
+package pessoto.android.evino.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import pessoto.android.evino.R;
 
 public class MainActivity extends AppCompatActivity {
 
