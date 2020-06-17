@@ -36,7 +36,7 @@
         android:background="@drawable/background_caixa_texto"
         android:ems="10"
         android:hint="E-mail"
-        android:inputType="textWebEmailAddress"
+        android:inputType="textEmailAddress"
         android:padding="10dp"
         android:textColor="#FFFFFF"
         android:textColorHint="#B5B5B5"
