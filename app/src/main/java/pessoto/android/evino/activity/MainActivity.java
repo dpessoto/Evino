@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.widget.Toast;
 
 import pessoto.android.evino.R;
 
@@ -32,10 +33,13 @@ public class MainActivity extends AppCompatActivity {
 
         listVinhos = findViewById(R.id.listVinhos);
 
+        Toast.makeText(getApplicationContext(),"clique em algum vinho, para ver a descrição",
+                Toast.LENGTH_LONG).show();
+
         //Adaptador para a lista
         ArrayAdapter<String> adaptador = new ArrayAdapter<String>(
                 getApplicationContext(),
-                android.R.layout.simple_list_item_1,
+                R.layout.simple_list,
                 android.R.id.text1,
                 vinhos
         );
@@ -49,6 +53,9 @@ public class MainActivity extends AppCompatActivity {
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
 
                 String vinhoSelecionado = (String) listVinhos.getItemAtPosition(i);
+
+                Toast.makeText(getApplicationContext(),vinhoSelecionado,
+                        Toast.LENGTH_SHORT).show();
 
                 Intent intent = new Intent(getApplicationContext(), DetalhesActivity.class);
 
