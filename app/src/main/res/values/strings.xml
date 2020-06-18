@@ -1,6 +1,6 @@
 <resources>
     <!-- nome do app -->
-    <string name="app_name">Evino</string>
+    <string name="app_name">evino</string>
 
     <!-- descrições dos vinhos -->
     <string name="descricao_1">Produzido por Domaine du Père Guillot de origem europeia, com tipo de fechamento rolha, volume de 750ml, feito com várias uvas e teor alcoólico de 12%.</string>
