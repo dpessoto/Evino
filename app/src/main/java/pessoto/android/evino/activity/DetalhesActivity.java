@@ -2,6 +2,7 @@ package pessoto.android.evino.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
@@ -75,4 +76,11 @@ public class DetalhesActivity extends AppCompatActivity {
                 textDescricao.setVisibility(View.INVISIBLE);
         }
     }
+
+    public void telaMain(View view) {
+        Intent i = new Intent(DetalhesActivity.this, MainActivity.class);
+        startActivity(i);
+        finish();
+    }
+
 }
