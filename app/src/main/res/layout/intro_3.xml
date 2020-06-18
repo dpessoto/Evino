@@ -30,6 +30,6 @@
         android:layout_height="wrap_content"
         android:padding="10sp"
         android:singleLine="false"
-        android:text="Criativo \nConfiável e profissional \nOrganizado \nMotivado \nAprendizagem rápida"
+        android:text="Criativo \nConfiável e profissional \nOrganizado \nFlexível \nMotivado \nAprendizagem rápida"
         android:textColor="@android:color/white" />
 </LinearLayout>

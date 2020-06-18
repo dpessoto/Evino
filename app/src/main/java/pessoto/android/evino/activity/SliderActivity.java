@@ -47,7 +47,7 @@ public class SliderActivity extends IntroActivity {
 
     }
 
-    public void irLogin(View view){
+    public void irLogin(View view) {
         Intent i = new Intent(SliderActivity.this, LoginActivity.class);
         startActivity(i);
     }
