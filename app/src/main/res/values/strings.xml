@@ -32,17 +32,24 @@
     <!-- LoginActivity.class / CadastroActivity.class-->
     <string name="fill_in_the_password">Fill in the password!</string>
     <string name="fill_in_the_email">Fill in the e-mail!</string>
+    <string name="fill_in_the_name">Fill in the name!</string>
     <string name="error_singning_in">Error signing in</string>
     <string name="verification">Verification</string>
     <string name="verification_age">Are you 18 or older?</string>
     <string name="yes">Yes</string>
     <string name="no">No</string>
-    <string name="come_back">Come back in a few years / months</string>
+    <string name="come_back">Come back in a few years / months / days</string>
     <string name="no_internet">No internet connection</string>
     <string name="we_need_an_intenert">We need an internet connection. Please activate and try again</string>
     <string name="try_again">TRY AGAIN</string>
     <string name="close">CLOSE</string>
     <string name="try_later">Try later</string>
+    <string name="registered_successfully">Registered successfully</string>
+    <string name="enter_a_stronger_password">Enter a stronger password!</string>
+    <string name="type_a_valid_email">Please, type a valid email!</string>
+    <string name="account_has_been_registered">This account has already been registered!</string>
+    <string name="when_registering_user">when registering user: </string>
+    <string name="error">error: </string>
 
 
     <!-- DetalhesActivity.class -->

@@ -62,17 +62,17 @@ public class CadastroActivity extends AppCompatActivity {
 
                         } else {
                             Toast.makeText(CadastroActivity.this,
-                                    "Preencha a senha!",
+                                    getString(R.string.fill_in_the_password),
                                     Toast.LENGTH_SHORT).show();
                         }
                     } else {
                         Toast.makeText(CadastroActivity.this,
-                                "Preencha o email!",
+                                getString(R.string.fill_in_the_email),
                                 Toast.LENGTH_SHORT).show();
                     }
                 } else {
                     Toast.makeText(CadastroActivity.this,
-                            "Preencha o nome!",
+                            getString(R.string.fill_in_the_name),
                             Toast.LENGTH_SHORT).show();
                 }
             }
@@ -94,7 +94,7 @@ public class CadastroActivity extends AppCompatActivity {
                         if (task.isSuccessful()) {
                             progressBar.setVisibility(View.GONE);
                             Toast.makeText(CadastroActivity.this,
-                                    "Cadastrado com sucesso",
+                                    getString(R.string.registered_successfully),
                                     Toast.LENGTH_SHORT).show();
                             startActivity(new Intent(getApplicationContext(), MainActivity.class));
                             finish();
@@ -105,18 +105,18 @@ public class CadastroActivity extends AppCompatActivity {
                             try {
                                 throw task.getException();
                             } catch (FirebaseAuthWeakPasswordException e) {
-                                erroExecao = "Digite uma senha mais forte!";
+                                erroExecao = getString(R.string.enter_a_stronger_password);
                             } catch (FirebaseAuthInvalidCredentialsException e) {
-                                erroExecao = "Por favor, digite um email válido!";
+                                erroExecao = getString(R.string.type_a_valid_email);
                             } catch (FirebaseAuthUserCollisionException e) {
-                                erroExecao = "Esta conta já foi cadastrada";
+                                erroExecao = getString(R.string.account_has_been_registered);
                             } catch (Exception e) {
-                                erroExecao = "ao cadastrar usuário: " + e.getMessage();
+                                erroExecao = getString(R.string.when_registering_user) + e.getMessage();
                                 e.printStackTrace();
                             }
 
                             Toast.makeText(CadastroActivity.this,
-                                    "Erro: " + erroExecao,
+                                    getString(R.string.error) + erroExecao,
                                     Toast.LENGTH_SHORT).show();
                         }
                     }
