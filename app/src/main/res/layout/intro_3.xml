@@ -15,7 +15,7 @@
         android:gravity="center_horizontal"
         android:padding="20sp"
         android:singleLine="true"
-        android:text="Crie a sua conta grátis"
+        android:text="@string/create_your_free_account"
         android:textAlignment="center"
         android:textColor="@color/colorAccent"
         android:textSize="24sp"
@@ -27,7 +27,7 @@
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
         android:padding="20sp"
-        android:text="Junte-se ao mundo evino \ne tenha os melhores vinhos"
+        android:text="@string/join_the_evini"
         android:textAlignment="center"
         android:textColor="@android:color/white"
         android:textSize="16sp" />
@@ -39,6 +39,6 @@
         android:background="@drawable/background_botao"
         android:onClick="irLogin"
         android:padding="20sp"
-        android:text="login / cadastro" />
+        android:text="@string/login_register" />
 
 </LinearLayout>

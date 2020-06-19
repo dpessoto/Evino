@@ -12,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:singleLine="true"
-        android:text="Sobre mim"
+        android:text="@string/about_me"
         android:textAlignment="center"
         android:textColor="@color/colorAccent"
         android:textSize="24sp"
@@ -27,7 +27,7 @@
         android:paddingRight="30sp"
         android:paddingBottom="10sp"
         android:singleLine="false"
-        android:text="Desenvolvedor com experiência em desenvolvimento android, com conhecimento em banco de dados, versionamento e que preza por boas práticas de programação."
+        android:text="@string/my_description"
         android:textColor="@android:color/white" />
 
     <TextView
@@ -35,7 +35,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:singleLine="true"
-        android:text="Conhecimentos"
+        android:text="@string/acquirements"
         android:textAlignment="center"
         android:textColor="@color/colorAccent"
         android:textSize="24sp"
@@ -48,7 +48,7 @@
         android:paddingLeft="30sp"
         android:paddingBottom="10sp"
         android:singleLine="false"
-        android:text="HTML5 \nCSS3 \nBootstrap \nJavascript \nC \nC# \n.NET \nAsp.NET \nJava \nAndroid (Java e Kotlin) \nGIT \nBanco de dados (SQL Server)"
+        android:text="@string/acquirements_of_languages"
         android:textColor="@android:color/white" />
 
     <TextView
@@ -56,7 +56,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:singleLine="true"
-        android:text="Habilidades pessoais"
+        android:text="@string/personal_skills"
         android:textAlignment="center"
         android:textColor="@color/colorAccent"
         android:textSize="24sp"
@@ -68,6 +68,6 @@
         android:layout_height="wrap_content"
         android:paddingLeft="30sp"
         android:singleLine="false"
-        android:text="Criativo \nConfiável e profissional \nOrganizado \nFlexível \nMotivado \nAprendizagem rápida"
+        android:text="@string/personal_skills_description"
         android:textColor="@android:color/white" />
 </LinearLayout>

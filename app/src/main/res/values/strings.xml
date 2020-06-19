@@ -1,4 +1,5 @@
 <resources>
+
     <!-- nome do app -->
     <string name="app_name">evino</string>
 
@@ -11,5 +12,23 @@
     <string name="descricao_6">Produced by Terre Cevico of Italian origin with stopper type, volume of 750ml, made with various grapes and has an alcohol content of 10.5%.</string>
     <string name="descricao_7">Produced by Manzanos of Spanish origin with a cork stopper type, volume of 750ml, made with Tempranillo, Garnacha and Graciano grapes and has an alcohol content of 13.5%.</string>
     <string name="descricao_8">Produzido por Aleavini de origem espanhola com tipo de fechamento rolha, volume de 750ml, feito com várias uvas e possui um teor de alcoólico de 12%.</string>
+
+    <!-- intro_1 -->
+    <string name="my_name">Daniel Pessoto</string>
+
+    <!-- intro_2 -->
+    <string name="about_me">About me</string>
+    <string name="my_description">Developer with experience in android development, with knowledge in database, versioning and who values good programming practices.</string>
+    <string name="acquirements">Acquiriments</string>
+    <string name="acquirements_of_languages">HTML5 \nCSS3 \nBootstrap \nJavascript \nC \nC# \n.NET \nAsp.NET \nJava \nAndroid (Java e Kotlin) \nGIT \nDatabase (SQL Server)</string>
+    <string name="personal_skills">Personal skills</string>
+    <string name="personal_skills_description">Creative \nReliable and professional \nOrganized \nFlexible \nMotivated \nFast learning</string>
+
+    <!-- intro_3 -->
+    <string name="create_your_free_account">Create your free account</string>
+    <string name="join_the_evini">Join the evino world \nand have the best wines</string>
+    <string name="login_register">Login / Register</string>
+
+
 
 </resources>

@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <!-- nome do app -->
+    <string name="app_name">evino</string>
+
     <!-- DetalhesActivity -->
     <string name="descricao_1">Produzido por Domaine du Père Guillot de origem europeia, com tipo de fechamento rolha, volume de 750ml, feito com várias uvas e teor alcoólico de 12%.</string>
     <string name="descricao_2">Produzido por Bodega López e Morena de origem espanhola com tipo de fechamento rolha, volume de 750ml, feito uvas Pinot Noir e teor alcoólico de 12%.</string>
@@ -10,6 +13,22 @@
     <string name="descricao_6">Produzido por Terre Cevico de origem italiana com tipo de fechamento rolha, volume de 750ml, feito com várias uvas e possui um teor de alcoólico de 10,5%.</string>
     <string name="descricao_7">Produzido por Manzanos de origem espanhola com tipo de fechamento rolha de cortiça, volume de 750ml, feito com uvas Tempranillo, Garnacha e Graciano e possui um teor de alcoólico de 13,5%.</string>
     <string name="descricao_8">Produzido por Aleavini de origem espanhola com tipo de fechamento rolha, volume de 750ml, feito com várias uvas e possui um teor de alcoólico de 12%.</string>
+
+    <!-- intro_1 -->
+    <string name="my_name">Daniel Pessoto</string>
+
+    <!-- intro_2 -->
+    <string name="about_me">Sobre mim</string>
+    <string name="my_description">Developer with experience in android development, with knowledge in database, versioning and who values good programming practices.</string>
+    <string name="acquirements">Conhecimentos</string>
+    <string name="acquirements_of_languages">HTML5 \nCSS3 \nBootstrap \nJavascript \nC \nC# \n.NET \nAsp.NET \nJava \nAndroid (Java e Kotlin) \nGIT \nBanco de dados (SQL Server)</string>
+    <string name="personal_skills">Habilidades pessoais</string>
+    <string name="personal_skills_description">Criativo \nConfiável e profissional \nOrganizado \nFlexível \nMotivado \nAprendizagem rápida</string>
+
+    <!-- intro_3 -->
+    <string name="create_your_free_account">Crie a sua conta grátis</string>
+    <string name="join_the_evini">Junte-se ao mundo evino \ne tenha os melhores vinhos</string>
+    <string name="login_register">Login / cadastro</string>
 
 
 
