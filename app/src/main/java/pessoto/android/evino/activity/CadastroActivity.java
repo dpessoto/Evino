@@ -126,8 +126,8 @@ public class CadastroActivity extends AppCompatActivity {
 
     public void inicializarComponentes() {
         editNome = findViewById(R.id.editCadastroNome);
-        editEmail = findViewById(R.id.editCadastroNome);
-        editSenha = findViewById(R.id.editCadastroNome);
+        editEmail = findViewById(R.id.editCadastroEmail);
+        editSenha = findViewById(R.id.editCadastroSenha);
         buttonCadastrar = findViewById(R.id.buttonCadastroCadastrar);
         progressBar = findViewById(R.id.progressCadastro);
     }
