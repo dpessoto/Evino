@@ -9,7 +9,7 @@
 
     <!-- intro_2 -->
     <string name="about_me">Sobre mim</string>
-    <string name="my_description">Developer with experience in android development, with knowledge in database, versioning and who values good programming practices.</string>
+    <string name="my_description">Desenvolvedor com experiência em desenvolvimento android, com conhecimento em banco de dados, versionamento e que valoriza boas práticas de programação.</string>
     <string name="acquirements">Conhecimentos</string>
     <string name="acquirements_of_languages">HTML5 \nCSS3 \nBootstrap \nJavascript \nC \nC# \n.NET \nAsp.NET \nJava \nAndroid (Java e Kotlin) \nGIT \nBanco de dados (SQL Server)</string>
     <string name="personal_skills">Habilidades pessoais</string>
