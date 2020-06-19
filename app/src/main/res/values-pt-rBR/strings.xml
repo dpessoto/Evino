@@ -37,6 +37,9 @@
     <string name="email">E-mail</string>
     <string name="register">Cadastre-se</string>
 
+    <!-- acitivity_main -->
+    <string name="exit">Sair</string>
+
 
 
 </resources>

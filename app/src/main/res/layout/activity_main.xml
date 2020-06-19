@@ -29,7 +29,7 @@
         android:layout_marginRight="16dp"
         android:background="@drawable/background_caixa_texto2"
         android:onClick="sair"
-        android:text="Sair"
+        android:text="@string/exit"
         android:textColor="@color/colorAccent"
         android:textSize="22sp"
         android:textStyle="bold"

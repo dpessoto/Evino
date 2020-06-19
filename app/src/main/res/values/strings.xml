@@ -36,6 +36,9 @@
     <string name="email">E-mail</string>
     <string name="register">Register</string>
 
+    <!-- acitivity_main -->
+    <string name="exit">Exit</string>
+
 
 
 </resources>
