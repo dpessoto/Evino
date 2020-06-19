@@ -4,16 +4,6 @@
     <!-- nome do app -->
     <string name="app_name">evino</string>
 
-    <!-- DetalhesActivity -->
-    <string name="descricao_1">Produzido por Domaine du Père Guillot de origem europeia, com tipo de fechamento rolha, volume de 750ml, feito com várias uvas e teor alcoólico de 12%.</string>
-    <string name="descricao_2">Produzido por Bodega López e Morena de origem espanhola com tipo de fechamento rolha, volume de 750ml, feito uvas Pinot Noir e teor alcoólico de 12%.</string>
-    <string name="descricao_3">Produzido por Aura Wines de origem chilena com tipo de fechamento rolha de cortiça, volume de 750ml, feito uvas Pinot Noir e teor alcoólico de 13%.</string>
-    <string name="descricao_4">Produzido por Viniverde - Adega Ponte da Barca de origem portuguesa com tipo de fechamento rolha, volume de 750ml, feito com várias uvas e teor alcoólico de 9,5%.</string>
-    <string name="descricao_5">Produzido por Castellani de origem italiana com tipo de fechamento rolha de cortiça, volume de 750ml, feito com uvas Sangiovese, Canaiolo e Cabernet Sauvignon e possui um teor de alcoólico de 12,5%.</string>
-    <string name="descricao_6">Produzido por Terre Cevico de origem italiana com tipo de fechamento rolha, volume de 750ml, feito com várias uvas e possui um teor de alcoólico de 10,5%.</string>
-    <string name="descricao_7">Produzido por Manzanos de origem espanhola com tipo de fechamento rolha de cortiça, volume de 750ml, feito com uvas Tempranillo, Garnacha e Graciano e possui um teor de alcoólico de 13,5%.</string>
-    <string name="descricao_8">Produzido por Aleavini de origem espanhola com tipo de fechamento rolha, volume de 750ml, feito com várias uvas e possui um teor de alcoólico de 12%.</string>
-
     <!-- intro_1 -->
     <string name="my_name">Daniel Pessoto</string>
 
@@ -39,6 +29,33 @@
 
     <!-- acitivity_main -->
     <string name="exit">Sair</string>
+
+    <!-- LoginActivity.class / CadastroActivity.class-->
+    <string name="fill_in_the_password">Preencha a senha!</string>
+    <string name="fill_in_the_email">Preencha o e-mail!</string>
+    <string name="error_singning_in">Erro ao fazer login</string>
+    <string name="verification">Verificação</string>
+    <string name="verification_age">Você possui 18 anos ou mais?</string>
+    <string name="yes">Sim</string>
+    <string name="no">Não</string>
+    <string name="come_back">Volte daqui alguns anos/meses</string>
+    <string name="no_internet">Sem conexão com a internet</string>
+    <string name="we_need_an_intenert">Precisamos de conexão com a internet. Por favor, ative e tente novamente</string>
+    <string name="try_again">TENTAR NOVAMENTE</string>
+    <string name="close">FECHAR</string>
+    <string name="try_later">Tente mais tarde</string>
+
+
+    <!-- DetalhesActivity -->
+    <string name="descricao_1">Produzido por Domaine du Père Guillot de origem europeia, com tipo de fechamento rolha, volume de 750ml, feito com várias uvas e teor alcoólico de 12%.</string>
+    <string name="descricao_2">Produzido por Bodega López e Morena de origem espanhola com tipo de fechamento rolha, volume de 750ml, feito uvas Pinot Noir e teor alcoólico de 12%.</string>
+    <string name="descricao_3">Produzido por Aura Wines de origem chilena com tipo de fechamento rolha de cortiça, volume de 750ml, feito uvas Pinot Noir e teor alcoólico de 13%.</string>
+    <string name="descricao_4">Produzido por Viniverde - Adega Ponte da Barca de origem portuguesa com tipo de fechamento rolha, volume de 750ml, feito com várias uvas e teor alcoólico de 9,5%.</string>
+    <string name="descricao_5">Produzido por Castellani de origem italiana com tipo de fechamento rolha de cortiça, volume de 750ml, feito com uvas Sangiovese, Canaiolo e Cabernet Sauvignon e possui um teor de alcoólico de 12,5%.</string>
+    <string name="descricao_6">Produzido por Terre Cevico de origem italiana com tipo de fechamento rolha, volume de 750ml, feito com várias uvas e possui um teor de alcoólico de 10,5%.</string>
+    <string name="descricao_7">Produzido por Manzanos de origem espanhola com tipo de fechamento rolha de cortiça, volume de 750ml, feito com uvas Tempranillo, Garnacha e Graciano e possui um teor de alcoólico de 13,5%.</string>
+    <string name="descricao_8">Produzido por Aleavini de origem espanhola com tipo de fechamento rolha, volume de 750ml, feito com várias uvas e possui um teor de alcoólico de 12%.</string>
+
 
 
 

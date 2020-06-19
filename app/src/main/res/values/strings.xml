@@ -3,16 +3,6 @@
     <!-- nome do app -->
     <string name="app_name">evino</string>
 
-    <!-- DetalhesActivity -->
-    <string name="descricao_1">Produced by Domaine du Père Guillot of European origin, with closure type, volume of 750ml, made with various grapes and alcohol content of 12%.</string>
-    <string name="descricao_2">Produced by Bodega López and Morena of Spanish origin with stopper type closure, volume of 750ml, made from Pinot Noir grapes and alcohol content of 12%.</string>
-    <string name="descricao_3">Produced by Aura Wines of Chilean origin, with a cork stopper type, volume of 750ml, made with Pinot Noir grapes and alcohol content of 13%.</string>
-    <string name="descricao_4">Produced by Viniverde - Adega Ponte da Barca of Portuguese origin with stopper type, volume of 750ml, made with various grapes and alcohol content of 9.5%.</string>
-    <string name="descricao_5">Produced by Castellani of Italian origin with a cork stopper type, volume of 750ml, made with Sangiovese, Canaiolo and Cabernet Sauvignon grapes and has an alcohol content of 12.5%.</string>
-    <string name="descricao_6">Produced by Terre Cevico of Italian origin with stopper type, volume of 750ml, made with various grapes and has an alcohol content of 10.5%.</string>
-    <string name="descricao_7">Produced by Manzanos of Spanish origin with a cork stopper type, volume of 750ml, made with Tempranillo, Garnacha and Graciano grapes and has an alcohol content of 13.5%.</string>
-    <string name="descricao_8">Produzido por Aleavini de origem espanhola com tipo de fechamento rolha, volume de 750ml, feito com várias uvas e possui um teor de alcoólico de 12%.</string>
-
     <!-- intro_1 -->
     <string name="my_name">Daniel Pessoto</string>
 
@@ -38,6 +28,33 @@
 
     <!-- acitivity_main -->
     <string name="exit">Exit</string>
+
+    <!-- LoginActivity.class / CadastroActivity.class-->
+    <string name="fill_in_the_password">Fill in the password!</string>
+    <string name="fill_in_the_email">Fill in the e-mail!</string>
+    <string name="error_singning_in">Error signing in</string>
+    <string name="verification">Verification</string>
+    <string name="verification_age">Are you 18 or older?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="come_back">Come back in a few years / months</string>
+    <string name="no_internet">No internet connection</string>
+    <string name="we_need_an_intenert">We need an internet connection. Please activate and try again</string>
+    <string name="try_again">TRY AGAIN</string>
+    <string name="close">CLOSE</string>
+    <string name="try_later">Try later</string>
+
+
+    <!-- DetalhesActivity.class -->
+    <string name="descricao_1">Produced by Domaine du Père Guillot of European origin, with closure type, volume of 750ml, made with various grapes and alcohol content of 12%.</string>
+    <string name="descricao_2">Produced by Bodega López and Morena of Spanish origin with stopper type closure, volume of 750ml, made from Pinot Noir grapes and alcohol content of 12%.</string>
+    <string name="descricao_3">Produced by Aura Wines of Chilean origin, with a cork stopper type, volume of 750ml, made with Pinot Noir grapes and alcohol content of 13%.</string>
+    <string name="descricao_4">Produced by Viniverde - Adega Ponte da Barca of Portuguese origin with stopper type, volume of 750ml, made with various grapes and alcohol content of 9.5%.</string>
+    <string name="descricao_5">Produced by Castellani of Italian origin with a cork stopper type, volume of 750ml, made with Sangiovese, Canaiolo and Cabernet Sauvignon grapes and has an alcohol content of 12.5%.</string>
+    <string name="descricao_6">Produced by Terre Cevico of Italian origin with stopper type, volume of 750ml, made with various grapes and has an alcohol content of 10.5%.</string>
+    <string name="descricao_7">Produced by Manzanos of Spanish origin with a cork stopper type, volume of 750ml, made with Tempranillo, Garnacha and Graciano grapes and has an alcohol content of 13.5%.</string>
+    <string name="descricao_8">Produzido por Aleavini de origem espanhola com tipo de fechamento rolha, volume de 750ml, feito com várias uvas e possui um teor de alcoólico de 12%.</string>
+
 
 
 

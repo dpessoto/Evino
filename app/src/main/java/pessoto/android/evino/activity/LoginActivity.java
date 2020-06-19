@@ -64,12 +64,12 @@ public class LoginActivity extends AppCompatActivity {
 
                     } else {
                         Toast.makeText(LoginActivity.this,
-                                "Preencha a senha!",
+                                getString(R.string.fill_in_the_password),
                                 Toast.LENGTH_SHORT).show();
                     }
                 } else {
                     Toast.makeText(LoginActivity.this,
-                            "Preencha o e-mail!",
+                            getString(R.string.fill_in_the_email),
                             Toast.LENGTH_SHORT).show();
                 }
             }
@@ -98,7 +98,7 @@ public class LoginActivity extends AppCompatActivity {
                 } else {
                     progressBar.setVisibility(View.GONE);
                     Toast.makeText(LoginActivity.this,
-                            "Erro ao fazer login",
+                            getString(R.string.error_singning_in),
                             Toast.LENGTH_SHORT).show();
                 }
             }
@@ -107,11 +107,11 @@ public class LoginActivity extends AppCompatActivity {
 
     public void abrirCadastro(View view) {
         AlertDialog.Builder alert = new AlertDialog.Builder(this);
-        alert.setTitle("Verificação");
+        alert.setTitle(getString(R.string.verification));
         alert.setIcon(R.mipmap.ic_launcher);
-        alert.setMessage("Você possui 18 anos ou mais?");
+        alert.setMessage(getString(R.string.verification_age));
         alert.setCancelable(false);
-        alert.setPositiveButton("Sim", new DialogInterface.OnClickListener() {
+        alert.setPositiveButton(getString(R.string.yes), new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
                 Intent cadastrar = new Intent(LoginActivity.this, CadastroActivity.class);
@@ -119,11 +119,11 @@ public class LoginActivity extends AppCompatActivity {
             }
         });
 
-        alert.setNegativeButton("Não", new DialogInterface.OnClickListener() {
+        alert.setNegativeButton(getString(R.string.no), new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
                 Toast.makeText(getApplicationContext(),
-                        "Volte daqui alguns anos/meses",
+                        getString(R.string.come_back),
                         Toast.LENGTH_LONG).show();
             }
         });
@@ -149,22 +149,22 @@ public class LoginActivity extends AppCompatActivity {
         }
         else {
             AlertDialog.Builder alert = new AlertDialog.Builder(this);
-            alert.setTitle("Sem conexão com a internet");
+            alert.setTitle(getString(R.string.no_internet));
             alert.setIcon(R.mipmap.ic_launcher);
-            alert.setMessage("Precisamos de conexão com a internet. Por favor, ative e tente novamente");
+            alert.setMessage(getString(R.string.we_need_an_intenert));
             alert.setCancelable(false);
-            alert.setPositiveButton("TENTAR NOVAMENTE", new DialogInterface.OnClickListener() {
+            alert.setPositiveButton(getString(R.string.try_again), new DialogInterface.OnClickListener() {
                 @Override
                 public void onClick(DialogInterface dialogInterface, int i) {
                     verificaConexao();
                 }
             });
 
-            alert.setNegativeButton("FECHAR", new DialogInterface.OnClickListener() {
+            alert.setNegativeButton(getString(R.string.close), new DialogInterface.OnClickListener() {
                 @Override
                 public void onClick(DialogInterface dialogInterface, int i) {
                     Toast.makeText(getApplicationContext(),
-                            "Tente mais tarde",
+                            getString(R.string.try_later),
                             Toast.LENGTH_LONG).show();
                     finishAffinity();
                 }
