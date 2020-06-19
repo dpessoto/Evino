@@ -122,8 +122,6 @@ public class CadastroActivity extends AppCompatActivity {
                     }
                 }
         );
-
-
     }
 
     public void inicializarComponentes() {
