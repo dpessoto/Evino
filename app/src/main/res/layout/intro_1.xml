@@ -24,12 +24,4 @@
         android:textSize="24sp"
         android:textStyle="bold|italic" />
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:padding="10sp"
-        android:singleLine="false"
-        android:text="Desenvolvedor com experiência em desenvolvimento android, com conhecimento em banco de dados, versionamento e que preza por boas práticas de programação."
-        android:textColor="@android:color/white" />
 </LinearLayout>

@@ -7,11 +7,28 @@
     android:gravity="center"
     android:orientation="vertical">
 
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="200dp"
-        android:layout_height="200dp"
-        app:srcCompat="@drawable/eu" />
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:text="Sobre mim"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingLeft="30sp"
+        android:paddingRight="30sp"
+        android:paddingBottom="10sp"
+        android:singleLine="false"
+        android:text="Desenvolvedor com experiência em desenvolvimento android, com conhecimento em banco de dados, versionamento e que preza por boas práticas de programação."
+        android:textColor="@android:color/white" />
 
     <TextView
         android:id="@+id/textView"
@@ -28,8 +45,29 @@
         android:id="@+id/textView2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="10sp"
+        android:paddingLeft="30sp"
+        android:paddingBottom="10sp"
         android:singleLine="false"
         android:text="HTML5 \nCSS3 \nBootstrap \nJavascript \nC \nC# \n.NET \nAsp.NET \nJava \nAndroid (Java e Kotlin) \nGIT \nBanco de dados (SQL Server)"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:text="Habilidades pessoais"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="30sp"
+        android:singleLine="false"
+        android:text="Criativo \nConfiável e profissional \nOrganizado \nFlexível \nMotivado \nAprendizagem rápida"
         android:textColor="@android:color/white" />
 </LinearLayout>
