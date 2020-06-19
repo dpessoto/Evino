@@ -52,7 +52,8 @@
     <string name="when_registering_user">ao cadastrar usuário: </string>
     <string name="error">erro: </string>
 
-
+    <!-- MainActivity.class -->
+    <string name="click_on_some_wine">clique em algum vinho, para ver a descrição</string>
 
     <!-- DetalhesActivity -->
     <string name="descricao_1">Produzido por Domaine du Père Guillot de origem europeia, com tipo de fechamento rolha, volume de 750ml, feito com várias uvas e teor alcoólico de 12%.</string>

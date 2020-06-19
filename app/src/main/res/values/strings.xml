@@ -51,6 +51,8 @@
     <string name="when_registering_user">when registering user: </string>
     <string name="error">error: </string>
 
+    <!-- MainActivity.class -->
+    <string name="click_on_some_wine">click on some wine to see the description</string>
 
     <!-- DetalhesActivity.class -->
     <string name="descricao_1">Produced by Domaine du Père Guillot of European origin, with closure type, volume of 750ml, made with various grapes and alcohol content of 12%.</string>

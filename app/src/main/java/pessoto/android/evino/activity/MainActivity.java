@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
 
         listVinhos = findViewById(R.id.listVinhos);
 
-        Toast.makeText(getApplicationContext(),"clique em algum vinho, para ver a descrição",
+        Toast.makeText(getApplicationContext(),getString(R.string.click_on_some_wine),
                 Toast.LENGTH_LONG).show();
 
         //Adaptador para a lista
@@ -67,7 +67,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
-
 
     public void sair(View view) {
         Intent i = new Intent(MainActivity.this, LoginActivity.class);
