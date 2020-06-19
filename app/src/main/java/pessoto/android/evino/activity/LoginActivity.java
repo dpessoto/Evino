@@ -1,8 +1,10 @@
 package pessoto.android.evino.activity;
 
 import androidx.annotation.NonNull;
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -97,8 +99,30 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     public void abrirCadastro(View view) {
-        Intent i = new Intent(LoginActivity.this, CadastroActivity.class);
-        startActivity(i);
+        AlertDialog.Builder alert = new AlertDialog.Builder(this);
+        alert.setTitle("Verificação");
+        alert.setIcon(R.mipmap.ic_launcher);
+        alert.setMessage("Você possui 18 anos ou mais?");
+        alert.setCancelable(false);
+        alert.setPositiveButton("Sim", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialogInterface, int i) {
+                Intent cadastrar = new Intent(LoginActivity.this, CadastroActivity.class);
+                startActivity(cadastrar);
+            }
+        });
+
+        alert.setNegativeButton("Não", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialogInterface, int i) {
+                Toast.makeText(getApplicationContext(),
+                        "Volte daqui alguns anos/meses",
+                        Toast.LENGTH_LONG).show();
+            }
+        });
+
+        alert.create();
+        alert.show();
     }
 
     public void inicializarComponentes() {
