@@ -71,7 +71,7 @@ public class DetalhesActivity extends AppCompatActivity {
                 break;
 
             default:
-                textNomeVinho.setText("Vinho não encontrado");
+                textNomeVinho.setText(R.string.wine_not_found);
                 imageVinho.setVisibility(View.INVISIBLE);
                 textDescricao.setVisibility(View.INVISIBLE);
         }
