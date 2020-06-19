@@ -1,11 +1,16 @@
 package pessoto.android.evino.activity;
 
 import androidx.annotation.NonNull;
+import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
+import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -31,11 +36,13 @@ public class LoginActivity extends AppCompatActivity {
     private Usuario usuario;
     private FirebaseAuth autenticacao;
 
+    @RequiresApi(api = Build.VERSION_CODES.M)
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
+        verificaConexao();
         inicializarComponentes();
 
         //Fazer login do usuario
@@ -130,5 +137,42 @@ public class LoginActivity extends AppCompatActivity {
         editSenha = findViewById(R.id.editLoginSenha);
         buttonLogin = findViewById(R.id.buttonLoginEntrar);
         progressBar = findViewById(R.id.progressLogin);
+    }
+
+    @RequiresApi(api = Build.VERSION_CODES.M)
+    public void verificaConexao() {
+        ConnectivityManager cm = (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
+        NetworkInfo net = cm.getActiveNetworkInfo();
+
+        if (net != null && net.isConnectedOrConnecting()) {
+
+        }
+        else {
+            AlertDialog.Builder alert = new AlertDialog.Builder(this);
+            alert.setTitle("Sem conexão com a internet");
+            alert.setIcon(R.mipmap.ic_launcher);
+            alert.setMessage("Precisamos de conexão com a internet. Por favor, ative e tente novamente");
+            alert.setCancelable(false);
+            alert.setPositiveButton("TENTAR NOVAMENTE", new DialogInterface.OnClickListener() {
+                @Override
+                public void onClick(DialogInterface dialogInterface, int i) {
+                    verificaConexao();
+                }
+            });
+
+            alert.setNegativeButton("FECHAR", new DialogInterface.OnClickListener() {
+                @Override
+                public void onClick(DialogInterface dialogInterface, int i) {
+                    Toast.makeText(getApplicationContext(),
+                            "Tente mais tarde",
+                            Toast.LENGTH_LONG).show();
+                    finishAffinity();
+                }
+
+            });
+
+            alert.create();
+            alert.show();
+        }
     }
 }
